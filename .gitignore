@@ -1,0 +1,13 @@
+# Bytecode Python
+__pycache__/
+*.pyc
+
+# Environnements virtuels
+venv/
+.venv/
+.env
+
+# Fichiers d'IDE et système
+.vscode/
+.idea/
+.DS_Store
