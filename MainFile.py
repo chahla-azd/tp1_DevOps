@@ -5,6 +5,11 @@ def main():
     print("Bienvenue ! Veuillez vous connecter.")
     if login("admin", "1234"):
         print("Connexion réussie.")
+    deconnexion()
+        
+        
+def deconnexion():
+    print("Vous êtes déconnecté.")
 
 if __name__ == "__main__":
     main()
