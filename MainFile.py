@@ -6,7 +6,6 @@ def main():
     if login("admin", "1234"):
         print("Connexion réussie.")
     deconnexion()
-    print("Ligne à annuler")
         
         
 def deconnexion():
